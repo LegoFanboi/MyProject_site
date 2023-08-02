@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" 
-    content="IE=edge">
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NumGame</title>
     <link rel="stylesheet" href="numgame.css">
 </head>
 <body onload="loadGame()">
-    <h1>Number Guessing Game</h1>
-    <p>Rules:  1. Guess a number from zero to 100 2. Guess no more than 7 guesses</p>
-
-    <label>Guess: </label>
-    <input id="guess" type="number" min="0">
-    <button onclick="makeGuess()">GUESS!</button>
+    <h1> Welcome to Numgame</h1>
+    <h2> The official number guessing game</h2>
+    <p>Rules:  </p>
+     <ol>
+         <li> Guess a number from zero to 100</li>
+         <li> Guess no more than 7 guesses</li>
+     </ol>    
+     <label>Guess:</label>
+     <input id="guess" type="number" min="0">
+     <button onclick="makeGuess()">GUESS!</button>
 
     <br/>
 

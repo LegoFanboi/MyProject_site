@@ -11,15 +11,17 @@ function loadGame() {
 }
 
 function makeGuess() {
-    let myGuess = guess.value;
-        console.log(`myGuess = ${myGuess}`);
+     let myGuess= guess.value;
 
-    if (myGuess < secret) {
-        report.innerHTML += `<br/>[${myGuess}] too small`;
-    } else if (myGuess) {
-        report.innerHTML += `<br/>[${myGuess}] too large`;
-    } else if {
-        report.innerHTML += `<br/>[${myGuess}] is correct!`;
-        //Winner Winner (Chicken dinner)
-    }
+     if (myGuess < secret){
+        report.innerHTML +=`<br/>[${myGuess}] too small`
+        // console.log(Guess = ${myGuess}`);
+     } else if (myGuess >secret) {
+        report.innerHTML +=`<br/>[${myGuess}] too large`;
+            }
+    else {
+        report.innerHTML +=`<br/>[${myGuess}] Correct! :) Winner winner Chicken dinner`;
+    }        
+
 }
+   

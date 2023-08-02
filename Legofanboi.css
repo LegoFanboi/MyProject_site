@@ -1,0 +1,23 @@
+body {
+    background-color: goldenrod;
+}
+
+h1 {
+color: black;
+text-align: left;
+font-family: fantasy;
+font-weight: bold;
+}
+
+h2 {
+ color: darkolivegreen;
+ text-align: left;
+ font-family: fantasy;
+ font-size: medium;
+}
+
+p {
+color: blue;
+font-family: fantasy;
+font-size: 20px;
+}
