@@ -5,6 +5,11 @@
     <title>list of videos</title>
   </head>
   <body>
+    <p style="text-align: center;">Video galleries</p>
+    <p style="background-color: black;"><span style="color: white;"><span style="color: #3366ff;">Here
+          is a list of videos that I have uploaded on my channel throughout the
+          years including the year they were uploaded</span><br>
+      </span></p>
     <p><br>
     </p>
   </body>
